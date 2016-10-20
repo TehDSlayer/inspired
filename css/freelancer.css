@@ -69,7 +69,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: #18BC9C;
+  background: #34495E;
   color: white;
 }
 header .container {
@@ -179,14 +179,15 @@ header .intro-text .skills {
   }
 }
 section {
-  padding: 100px 0;
+  vertical-align: middle;
+  /*padding: 0px 350px;*/
 }
 section h2 {
   margin: 0;
   font-size: 3em;
 }
 section.success {
-  background: #18BC9C;
+  background: #34495E;
   color: white;
 }
 @media (max-width: 767px) {
@@ -208,7 +209,7 @@ section.success {
   margin: 0 auto;
 }
 #portfolio .portfolio-item .portfolio-link .caption {
-  background: rgba(24, 188, 156, 0.9);
+  background-color:#17A589;
   position: absolute;
   width: 100%;
   height: 100%;
@@ -216,15 +217,16 @@ section.success {
   transition: all ease 0.5s;
   -webkit-transition: all ease 0.5s;
   -moz-transition: all ease 0.5s;
+  border-radius: 2000px;
 }
 #portfolio .portfolio-item .portfolio-link .caption:hover {
-  opacity: 1;
+  opacity: .75;
 }
 #portfolio .portfolio-item .portfolio-link .caption .caption-content {
   position: absolute;
   width: 100%;
   height: 20px;
-  font-size: 20px;
+  font-size: 12px;
   text-align: center;
   top: 50%;
   margin-top: -12px;
@@ -243,6 +245,7 @@ section.success {
 @media (min-width: 767px) {
   #portfolio .portfolio-item {
     margin: 0 0 30px;
+    /*width:100%;*/
   }
 }
 .floating-label-form-group {
@@ -503,3 +506,20 @@ fieldset[disabled] .btn-success.active {
   opacity: 0;
   display: none;
 }
+
+#occupation-text{
+  text-align:center;
+  color:black;
+  position: inherit;
+}
+
+#workshop-text{
+  position: relative;
+  top:-5%;
+  
+}
+
+#port-row{
+  
+}
+
